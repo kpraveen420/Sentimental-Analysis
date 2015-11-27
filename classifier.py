@@ -62,7 +62,7 @@ def train():
   classifier = sentim_analyzer.train(trainer, training_set)
   for key,value in sorted(sentim_analyzer.evaluate(test_set).items()):
     print('{0}: {1}'.format(key, value))
-  print sentim_analyzer.classify(tokenize_sentance('I hate donald'))
+  print sentim_analyzer.classify(tokenize_sentance('I hate driving car at night'))
   
   return sentim_analyzer
 
