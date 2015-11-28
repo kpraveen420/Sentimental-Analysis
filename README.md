@@ -1,8 +1,11 @@
-## Sentimental-Analysis
-
-
-Accuracy of Sentimental Analysis:
+Sentimental-Analysis
 ======
+
+
+
+
+## Accuracy of Sentimental Analysis:
+
 * Accuracy: ___0.777321281841___
 * F-measure [negative]: ___0.768573868488___
 * F-measure [positive]: ___0.785431512272___
